@@ -1,9 +1,5 @@
 <h1> College Corps E-Portfolio Capstone</h1>
 <p> 
-  A website that contains
-  -Home Page
-  -Resume
-  -Capstone
 
   Capstone information:
 
