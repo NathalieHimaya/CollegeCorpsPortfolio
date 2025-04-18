@@ -3,6 +3,7 @@
 *{
     margin:0;
     padding:0;
+    
 }
 
 body{
@@ -55,4 +56,5 @@ body{
 .education-container{
     background-color: #333333;
     color: #FAFAFA;
+    margin-top: 200px;
 }
