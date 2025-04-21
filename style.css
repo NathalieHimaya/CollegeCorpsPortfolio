@@ -3,7 +3,6 @@
 *{
     margin:0;
     padding:0;
-    
 }
 
 html{
@@ -70,19 +69,15 @@ body{
 }
 
 .schools{
-    border-style: solid;
-    border-top: #333333;
-    border-right: #333333;
-    border-bottom: #333333;
-    padding-top: 20px;
-    padding-left: 50px;
-    margin-left: 600px;
+    display: flex;
+    padding-top: 50px;
+    gap: 100px;
 }
 
 .school1 h3,
 .school2 h3,
 .school3 h3 {
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     font-family: Roboto;
 }
 
