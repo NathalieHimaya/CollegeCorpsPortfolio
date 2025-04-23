@@ -89,7 +89,12 @@ body{
 
 .page2{
     font-size: 25px;
-    max-width: 600px;
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-bottom: solid;
+
 }
 
 .schools{
