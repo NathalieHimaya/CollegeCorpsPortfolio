@@ -10,8 +10,8 @@ html{
 }
 
 body{
-    background-image: url("background.jpg");
-    background-size: cover;
+    background-image: url("bg.jpg");
+    background-size:contain;
 }
 
 .main-container{
@@ -25,7 +25,7 @@ body{
 .name{
     font-family: Amiri;
     font-size: 50px;
-    color: #FBFBFB;
+    color: #191919;
     text-align: left;
     flex-wrap: nowrap;
 }
@@ -53,7 +53,7 @@ body{
 .name_title{
     font-family: Roboto;
     font-size: 20px;
-    color: #FAFAFA;
+    color: #191919;
     text-align: left;
     margin-bottom: 40px;
     display:inline-block;
@@ -62,7 +62,7 @@ body{
 .about_me{
     font-family: Roboto;
     font-size: 20px;
-    color: #FAFAFA;
+    color: #191919;
     text-align: left;
     margin-bottom: 40px;
 }
@@ -76,13 +76,13 @@ body{
 
 .social_links a{
     text-decoration: none;
-    color: #FAF9F6;
+    color: #191919;
 }
 
 /* SECTION 2 EDUCATION */
 #education{
-    background-color: #191919;
-    color: #FAF9F6;
+    background-color: #d2c7b8;
+    color: #191919;
     padding: 200px;
     padding-top: 100px;
 }
@@ -110,9 +110,10 @@ body{
     border-style: solid;
     border-radius: 25px;
     border-width: 25px;
-    padding: 20px;
+    padding: 10px;
     background-color:  #FAF9F6;
-    box-shadow: 5px 10px 10px #241c1c;
+    box-shadow: 1px 10px 10px #d6ba94;
+    color: #FAF9F6;
 }
 
 .school1 h3,
@@ -136,19 +137,19 @@ body{
 .school3 p{
     padding-bottom: 40px;
     font-family: Roboto;
-    color:#333333
+    color:#333333;
 }
 
 /* NAVBAR */
 
 .logo{
-    color:#FAF9F6;
+    color:#191919;
     font-weight: 10px;
     font-size: 20px;
     font-family: Roboto;
 }
 
-.nav-container {
+.nav{
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 25px;
@@ -163,7 +164,7 @@ body{
   
   .links a {
     font-family: Roboto;
-    color: #bababa;
+    color: #191919;
     font-size: 20px;
     text-decoration: none;
     transition: color 0.3s ease, text-decoration 0.3s ease;
