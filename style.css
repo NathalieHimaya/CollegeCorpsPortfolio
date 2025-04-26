@@ -11,6 +11,7 @@ html{
 
 body{
     background-color: #16161a;
+    font-family: "Noto Sans";
 }
 
 .main-container{
@@ -78,7 +79,60 @@ body{
     color: #7f5af0;
 }
 
+
+/* ------------------- */
+
+/* NAVBAR */
+
+/* ------------------- */
+
+
+.logo{
+    color: #fffffe;
+    font-weight: 20px;
+    font-size: 20px;
+    font-family: "Noto Sans";
+}
+
+.nav{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;     
+    gap: 25px;
+    width: 100%; 
+  }
+  
+  .links a {
+    font-family: "Noto Sans";
+    color: #fffffe;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+
+  .links a:hover{
+    color:aqua;
+    text-decoration: underline;
+  }
+  
+
+  .pfp{
+   width:100%;
+   height: auto;
+  }
+
+
+/* ------------------- */
+
 /* SECTION 2 EDUCATION */
+
+/* ------------------- */
+
 #education{
     background-color: #242629;
     color: #191919;
@@ -96,7 +150,6 @@ body{
     border-bottom: solid; */
 
 }
-
 .schools{
     display: flex;
     padding-top: 50px;
@@ -140,44 +193,8 @@ body{
     color:#94a1b2;
 }
 
-/* NAVBAR */
+/* ------------------- */
 
-.logo{
-    color: #fffffe;
-    font-weight: 20px;
-    font-size: 20px;
-    font-family: "Noto Sans";
-}
+/* Section 3: Resume */
 
-.nav{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 25px;
-  }
-  
-  .links {
-    display: flex;
-    justify-content: flex-end;     
-    gap: 25px;
-    width: 100%; 
-  }
-  
-  .links a {
-    font-family: "Noto Sans";
-    color: #fffffe;
-    font-size: 20px;
-    text-decoration: none;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-  }
-
-  .links a:hover{
-    color:aqua;
-    text-decoration: underline;
-  }
-  
-
-  .pfp{
-   width:100%;
-   height: auto;
-  }
-
+/* ------------------- */
