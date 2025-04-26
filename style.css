@@ -10,8 +10,9 @@ html{
 }
 
 body{
-    background-image: url("bg.jpg");
-    background-size:contain;
+    background-color:
+    /* background-image: url("bg.jpg");
+    background-size:contain; */
 }
 
 .main-container{
@@ -81,7 +82,7 @@ body{
 
 /* SECTION 2 EDUCATION */
 #education{
-    background-color: #d2c7b8;
+    /* background-color: #FAF9F6; */
     color: #191919;
     padding: 200px;
     padding-top: 100px;
@@ -92,9 +93,6 @@ body{
     max-width: auto;
     display: flex;
     justify-content: center;
-    padding-bottom: 5px;
-    border-bottom: solid;
-
 }
 
 .schools{
@@ -111,8 +109,8 @@ body{
     border-radius: 25px;
     border-width: 25px;
     padding: 10px;
-    background-color:  #FAF9F6;
-    box-shadow: 1px 10px 10px #d6ba94;
+    /* background-color:  #FAF9F6; */
+    box-shadow: 1px 10px 10px #e5cdab;
     color: #FAF9F6;
 }
 
