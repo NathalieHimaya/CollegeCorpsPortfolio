@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 *{
     margin:0;
@@ -10,9 +10,7 @@ html{
 }
 
 body{
-    background-color:
-    /* background-image: url("bg.jpg");
-    background-size:contain; */
+    background-color: #16161a;
 }
 
 .main-container{
@@ -24,9 +22,9 @@ body{
 }
 
 .name{
-    font-family: Amiri;
+    font-family: "Noto Sans";
     font-size: 50px;
-    color: #191919;
+    color: #fffffe;
     text-align: left;
     flex-wrap: nowrap;
 }
@@ -52,18 +50,18 @@ body{
 }
 
 .name_title{
-    font-family: Roboto;
+    font-family: "Noto Sans";
     font-size: 20px;
-    color: #191919;
+    color: #fffffe;
     text-align: left;
     margin-bottom: 40px;
     display:inline-block;
 }
 
 .about_me{
-    font-family: Roboto;
+    font-family: "Noto Sans";
     font-size: 20px;
-    color: #191919;
+    color: #94a1b2;
     text-align: left;
     margin-bottom: 40px;
 }
@@ -77,22 +75,26 @@ body{
 
 .social_links a{
     text-decoration: none;
-    color: #191919;
+    color: #7f5af0;
 }
 
 /* SECTION 2 EDUCATION */
 #education{
-    /* background-color: #FAF9F6; */
+    background-color: #242629;
     color: #191919;
     padding: 200px;
-    padding-top: 100px;
-}
+    padding-top: 100px;}
 
 .page2{
+    font-family: "Noto Sans";
+    color: #fffffe;
     font-size: 25px;
     max-width: auto;
     display: flex;
     justify-content: center;
+    /* padding-bottom: 5px;
+    border-bottom: solid; */
+
 }
 
 .schools{
@@ -106,45 +108,45 @@ body{
 .school2,
 .school3{
     border-style: solid;
-    border-radius: 25px;
-    border-width: 25px;
-    padding: 10px;
-    /* background-color:  #FAF9F6; */
-    box-shadow: 1px 10px 10px #e5cdab;
-    color: #FAF9F6;
+    border-radius: 7.5px;
+    border-width: 1px;
+    padding: 40px;
+    color: #16161a;
+    background-color:  #16161a;
+    box-shadow: 0px 0px 25px #7f5af0;
 }
 
 .school1 h3,
 .school2 h3,
 .school3 h3 {
-    font-family: Roboto;
+    font-family: "Noto Sans";
     padding-bottom: 5px;
-    color:#333333;
+    color:#fffffe;
 }
 
 .school1 h4,
 .school2 h4,
 .school3 h4{
-    font-family: Roboto;
+    font-family: "Noto Sans";
     padding-bottom: 20px;
-    color:#787777;
+    color:#94a1b2;
     margin-left: 30px;
 }
 .school1 p,
 .school2 p,
 .school3 p{
     padding-bottom: 40px;
-    font-family: Roboto;
-    color:#333333;
+    font-family: "Noto Sans";
+    color:#94a1b2;
 }
 
 /* NAVBAR */
 
 .logo{
-    color:#191919;
-    font-weight: 10px;
+    color: #fffffe;
+    font-weight: 20px;
     font-size: 20px;
-    font-family: Roboto;
+    font-family: "Noto Sans";
 }
 
 .nav{
@@ -161,8 +163,8 @@ body{
   }
   
   .links a {
-    font-family: Roboto;
-    color: #191919;
+    font-family: "Noto Sans";
+    color: #fffffe;
     font-size: 20px;
     text-decoration: none;
     transition: color 0.3s ease, text-decoration 0.3s ease;
