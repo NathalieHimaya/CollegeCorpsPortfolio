@@ -30,7 +30,7 @@ body{
     flex-wrap: nowrap;
 
 }
-
+ 
 .name_title{
     display: flex;
     align-content: center;
@@ -152,8 +152,8 @@ body{
     gap: 2em;
     grid-template-areas: 
         "box-1 box-2 box-2"
-        "box-4 box-2 box-2"
-        "box-5 box-5 box-6"
+        "box-3 box-2 box-2"
+        "box-4 box-4 box-5"
 
 }
 
@@ -230,5 +230,17 @@ body{
     align-items: center;
     list-style-type: none; /* removes bullets */
     padding: 0;
+  }
+
+  /* Skills Section Box 3 */
+
+  .box-3-skills{
+    padding: 25px;
+  }
+
+  .box-3-skills h1{
+    font-size: 25px;
+    color: #2cb67d;
+    padding-bottom: 14px;
   }
   
