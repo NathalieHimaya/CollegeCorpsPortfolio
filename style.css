@@ -19,15 +19,20 @@ body{
 }
 
 .sub-container{
-    padding-left:600px;
+   justify-content: center;
 }
 
 .name{
     font-family: "Noto Sans";
     font-size: 50px;
     color: #fffffe;
-    text-align: left;
+    text-align: center;
     flex-wrap: nowrap;
+
+}
+
+.name_title{
+    padding-left: 32%;
 }
 
 .effect{
@@ -54,7 +59,7 @@ body{
     font-family: "Noto Sans";
     font-size: 20px;
     color: #fffffe;
-    text-align: left;
+    text-align: center;
     margin-bottom: 40px;
     display:inline-block;
 }
@@ -63,13 +68,13 @@ body{
     font-family: "Noto Sans";
     font-size: 20px;
     color: #94a1b2;
-    text-align: left;
+    text-align: center;
     margin-bottom: 40px;
 }
 
 .social_links{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 25px;
     font-size: 25px;
 }
@@ -126,75 +131,101 @@ body{
    height: auto;
   }
 
+/* --------------------------
 
-/* ------------------- */
+    OH DEAR BENTO
 
-/* SECTION 2 EDUCATION */
+-------------------------- */
 
-/* ------------------- */
+.box{
+    background-color: #242629; 
+}
 
-#education{
-    background-color: #242629;
-    color: #191919;
-    padding: 200px;
-    padding-top: 100px;}
+.grid-container{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    gap: 2em;
+    grid-template-areas: 
+        "box-1 box-2 box-2"
+        "box-4 box-2 box-2"
+        "box-5 box-5 box-6"
 
-.page2{
-    font-family: "Noto Sans";
-    color: #fffffe;
+}
+
+/* Education Grid Box */
+
+.education-box{
+    padding: 25px;
+    background-color:#242629;
+}
+
+.education-box h1{
     font-size: 25px;
-    max-width: auto;
-    display: flex;
-    justify-content: center;
-    /* padding-bottom: 5px;
-    border-bottom: solid; */
-
-}
-.schools{
-    display: flex;
-    padding-top: 50px;
-    gap: 100px;
+    color: #2cb67d;
+    padding-bottom: 14px;
 
 }
 
-.school1,
-.school2,
-.school3{
-    border-style: solid;
-    border-radius: 7.5px;
-    border-width: 1px;
-    padding: 40px;
-    color: #16161a;
-    background-color:  #16161a;
-    box-shadow: 0px 0px 25px #7f5af0;
+.box-1-school{
+    padding-bottom: 10px;
 }
 
-.school1 h3,
-.school2 h3,
-.school3 h3 {
-    font-family: "Noto Sans";
-    padding-bottom: 5px;
+.school-name{
+    font-size: 16px;
+    color: #fffffe;
+}
+
+.year{
+    font-size: 14px;
+    color:#94a1b2;
+}
+
+.school-text{
+    color:#94a1b2;
+}
+
+/* Work Experience Box 2 */
+
+.experience-box{
+    padding: 25px;
+    background-color:#242629;
+}
+
+.experience-box h1{
+    font-size: 25px;
+    color: #2cb67d;
+    padding-bottom: 14px;
+}
+
+.ex-name{
+    font-size: 16px;
     color:#fffffe;
+    padding-bottom:5px;
 }
 
-.school1 h4,
-.school2 h4,
-.school3 h4{
-    font-family: "Noto Sans";
-    padding-bottom: 20px;
-    color:#94a1b2;
-    margin-left: 30px;
-}
-.school1 p,
-.school2 p,
-.school3 p{
-    padding-bottom: 40px;
-    font-family: "Noto Sans";
+.ex-text{
+    font-size: 16px;
     color:#94a1b2;
 }
 
-/* ------------------- */
+.ex-date{
+    color:#94a1b2;
+    padding-bottom:5px;
+    font-size: 12px;
+}
 
-/* Section 3: Resume */
+.box-2-ex{
+    padding-bottom: 2rem;
+}
 
-/* ------------------- */
+.align {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none; /* removes bullets */
+    padding: 0;
+  }
+  
