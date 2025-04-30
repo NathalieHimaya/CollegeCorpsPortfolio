@@ -235,12 +235,14 @@ body{
     padding-bottom: 2rem;
 }
 
+
 .align {
     display: flex;
     gap: 45px;
     align-items: center;
     list-style-type: none; /* removes bullets */
     padding: 0;
+
   }
 
   /* Skills Section Box 3 */
@@ -286,10 +288,32 @@ body{
 
     .box-5-resume{
         padding: 25px;
+        font-family: "Noto Sans";
     }
 
     .box-5-resume h1{
         font-size: 25px;
-        color: #2cb67d;
-        padding-bottom: 14px;
+        padding: 8px 15px;
+        justify-content: center;
+        font-family: "Noto Sans";
+    }
+
+    .card{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .button {
+        font-family:inherit;
+        background-color: #7f5af0;
+        color:#16161a;
+        font-size: 25px;
+        padding: 8px 15px;
+        margin-left: 1rem;
+        border-radius: 50px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
     }
