@@ -315,7 +315,7 @@ body{
 
     .button {
         font-family:inherit;
-        background-image: linear-gradient(45, #7f5af0, #bcabf0);
+        background-color: #7f5af0;
         color:#16161a;
         font-size: 25px;
         padding: 8px 15px;
